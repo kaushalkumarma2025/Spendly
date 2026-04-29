@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+
+{% block title %}Privacy Policy - Spendly{% endblock %}
+
+{% block head %}
+<style>
+    .privacy-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 3rem 2rem;
+    }
+    .privacy-container h1 {
+        font-family: var(--font-display);
+        font-size: clamp(1.75rem, 4vw, 2.5rem);
+        color: var(--ink);
+        margin-bottom: 1.5rem;
+    }
+    .privacy-container h2 {
+        font-family: var(--font-body);
+        font-size: 1.2rem;
+        color: var(--ink-soft);
+        margin-top: 2rem;
+        margin-bottom: 0.75rem;
+        font-weight: 600;
+    }
+    .privacy-container p {
+        font-size: 0.95rem;
+        color: var(--ink-muted);
+        line-height: 1.7;
+        margin-bottom: 1rem;
+    }
+    .privacy-container strong {
+        color: var(--ink);
+    }
+    .privacy-last-updated {
+        font-size: 0.85rem;
+        color: var(--ink-muted);
+        margin-bottom: 2rem;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<main class="privacy-container">
+    <h1>Privacy Policy</h1>
+    <p class="privacy-last-updated"><strong>Last updated:</strong> April 29, 2026</p>
+
+    <h2>1. Introduction</h2>
+    <p>Welcome to Spendly. We respect your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our expense tracking service. Please read this policy carefully to understand our practices regarding your personal data.</p>
+
+    <h2>2. Information We Collect</h2>
+    <p>We collect information you provide directly to us, including:</p>
+    <p><strong>Account Information:</strong> When you register, we collect your email address and password (stored securely, hashed).</p>
+    <p><strong>Expense Data:</strong> The expenses you log, including amount, category, date, description, and any attached notes or receipts. This data is essential for providing the service.</p>
+    <p><strong>Technical Data:</strong> We may collect information about your device and usage, such as IP address, browser type, and logs, to improve our service and diagnose issues.</p>
+
+    <h2>3. How We Use Your Information</h2>
+    <p>We use the information we collect to:</p>
+    <p>• Provide, operate, and maintain our service</p>
+    <p>• Process and display your expense data</p>
+    <p>• Personalize your experience</p>
+    <p>• Communicate with you about service updates or changes</p>
+    <p>• Improve and develop new features</p>
+    <p>• Detect and prevent fraud or unauthorized access</p>
+
+    <h2>4. Data Storage and Security</h2>
+    <p>Your data is stored securely on our servers. We implement industry-standard security measures, including encryption in transit and at rest, to protect your personal information. Access to your account is protected by your password; please keep it confidential. We retain your data for as long as your account is active or as necessary to provide the service. You may delete your account and associated data at any time.</p>
+
+    <h2>5. Sharing Your Data</h2>
+    <p>We do not sell your personal data to third parties. We may share your data with trusted service providers who assist in operating our service (e.g., hosting, analytics) under strict confidentiality agreements. We may disclose information if required by law or to protect our rights and safety. We will never share your expense data with advertisers or marketing partners without your explicit consent.</p>
+
+    <h2>6. Your Rights</h2>
+    <p>You have the right to access, correct, or delete your personal data. You can export your expense data at any time from within the application. If you wish to delete your account, please contact us or use the account deletion feature if available. You may also opt out of any non-essential communications.</p>
+
+    <h2>7. Data Minimization</h2>
+    <p>We collect only the data that is necessary to provide and improve the service. We do not require unnecessary personal details. You are in control of the information you enter, and we encourage you to avoid entering sensitive personal information (e.g., social security numbers, credit card numbers) unless absolutely necessary for your personal record-keeping.</p>
+
+    <h2>8. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify users of any significant changes by updating the "Last updated" date at the top of this page. Continued use of the service after such modifications constitutes your acceptance of the updated policy. We encourage you to review this policy periodically.</p>
+
+    <h2>9. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy or our data practices, please contact us through our support channels.</p>
+</main>
+{% endblock %}
