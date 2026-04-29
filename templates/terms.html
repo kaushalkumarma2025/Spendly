@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block title %}Terms and Conditions - Spendly{% endblock %}
+
+{% block head %}
+<style>
+    .terms-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 3rem 2rem;
+    }
+    .terms-container h1 {
+        font-family: var(--font-display);
+        font-size: clamp(1.75rem, 4vw, 2.5rem);
+        color: var(--ink);
+        margin-bottom: 1.5rem;
+    }
+    .terms-container h2 {
+        font-family: var(--font-body);
+        font-size: 1.2rem;
+        color: var(--ink-soft);
+        margin-top: 2rem;
+        margin-bottom: 0.75rem;
+        font-weight: 600;
+    }
+    .terms-container p {
+        font-size: 0.95rem;
+        color: var(--ink-muted);
+        line-height: 1.7;
+        margin-bottom: 1rem;
+    }
+    .terms-container strong {
+        color: var(--ink);
+    }
+    .terms-last-updated {
+        font-size: 0.85rem;
+        color: var(--ink-muted);
+        margin-bottom: 2rem;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<main class="terms-container">
+    <h1>Terms and Conditions</h1>
+    <p class="terms-last-updated"><strong>Last updated:</strong> April 29, 2026</p>
+
+    <h2>1. Acceptance of Terms</h2>
+    <p>Welcome to Spendly. By accessing or using our expense tracking service, you agree to be bound by these Terms and Conditions. If you do not agree to all of these terms, you may not access or use our service. Please read these terms carefully before proceeding.</p>
+
+    <h2>2. Use of Service</h2>
+    <p>Spendly provides a personal finance tracking application that allows users to log, categorize, and monitor their expenses. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You agree to provide accurate and complete information when creating an account and to keep your information up to date.</p>
+    <p>You must be at least 18 years of age to use this service. By using Spendly, you represent that you have the legal capacity to enter into this agreement.</p>
+
+    <h2>3. User Data</h2>
+    <p>We collect and store your expense data solely to provide and improve the service. By using Spendly, you consent to our data practices as described in our Privacy Policy. You retain full ownership of your data and may export or delete it at any time through the application. We will not sell your personal data to third parties without your explicit consent.</p>
+
+    <h2>4. Acceptable Use</h2>
+    <p>You agree not to use Spendly for any unlawful purpose or in any way that could damage, disable, overburden, or impair our service. You are solely responsible for the content and accuracy of the expense data you enter.</p>
+
+    <h2>5. Limitations of Liability</h2>
+    <p>Spendly is provided on an "as is" and "as available" basis without warranties of any kind, either express or implied. We are not liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of our service. Our total liability to you for any claim arising from these terms or your use of the service shall not exceed the amount you paid us, if any, in the past six months.</p>
+
+    <h2>6. Changes to Terms</h2>
+    <p>We reserve the right to modify these Terms and Conditions at any time. We will notify users of significant changes by updating the "Last updated" date at the top of this page. Your continued use of the service after such modifications constitutes your acceptance of the new terms. If you do not agree with the changes, you should stop using the service.</p>
+
+    <h2>7. Contact Information</h2>
+    <p>If you have any questions about these Terms and Conditions, please contact us through our customer support channel.</p>
+</main>
+{% endblock %}
